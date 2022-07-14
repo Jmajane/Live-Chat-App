@@ -1,3 +1,5 @@
 module.exports.register = (req, res, next) => {
-    console.log(req.body)
+    const {username, email, pasword} = req.body;
+    const unsernameCheck = await
 };
+
